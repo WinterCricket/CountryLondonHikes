@@ -22,10 +22,20 @@ body {
     -webkit-filter: blur(0px);
 }
 
+.woods:hover #header-image {
+	opacity: 0.3;
+	transition: 1000ms;
+}
+
+.woods:hover .title {
+	color: white;
+	transition: 1000ms;
+}
+
 .content {
 	position: absolute;
 	z-index: 1;
-	top: 30%;
+	top: 25%;
 	left: 48%;
 	margin-top: 105px;
 	margin-left: -140px;
@@ -42,7 +52,7 @@ body {
 }
 
 .content .title {
-
+	
 }
 
 .content .text {
