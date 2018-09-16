@@ -25,8 +25,14 @@ body {
 .content {
 	position: absolute;
 	z-index: 1;
-	top: 10%;
-	left: 50%;
+	top: 30%;
+	left: 48%;
+	margin-top: 105px;
+	margin-left: -140px;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+	transition: all 1000ms;
 }
 
 .content #header-image {
@@ -41,4 +47,12 @@ body {
 
 .content .text {
 
+}
+
+#nav-bar {
+
+}
+
+li {
+	
 }
