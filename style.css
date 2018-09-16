@@ -21,3 +21,24 @@ body {
 	filter: blur(0px);
     -webkit-filter: blur(0px);
 }
+
+.content {
+	position: absolute;
+	z-index: 1;
+	top: 10%;
+	left: 50%;
+}
+
+.content #header-image {
+	height: 180px;
+	width: 180px;
+	
+}
+
+.content .title {
+
+}
+
+.content .text {
+
+}
