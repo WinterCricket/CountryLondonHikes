@@ -4,6 +4,7 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .woods::after {
 	content:'';
 	height: 100vh;
@@ -32,10 +33,15 @@ body {
 	transition: 1000ms;
 }
 
+.woods:hover .white{
+	color: white;
+	transition: 1000ms;
+}
+
 .content {
 	position: absolute;
 	z-index: 1;
-	top: 25%;
+	top: 22%;
 	left: 48%;
 	margin-top: 105px;
 	margin-left: -140px;
@@ -52,7 +58,7 @@ body {
 }
 
 .content .title {
-	
+	font-size: 1.2em;
 }
 
 .content .text {
@@ -82,4 +88,10 @@ li {
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(3, 1fr);
+	
+}
+.grid-2 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
 }
