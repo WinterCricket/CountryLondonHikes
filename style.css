@@ -150,3 +150,16 @@ input[type=submit]:hover {
 	background: white;
 	color: black;
 }
+.btn {
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 3px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn:hover {
+	background: green;
+	
+}
