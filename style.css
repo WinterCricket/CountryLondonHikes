@@ -79,9 +79,7 @@ body {
 
 }
 
-li {
-	
-}
+
 
 #what-we-do .container #basic-price, #what-we-do .container #vid {
 	max-width: 960px;
@@ -168,9 +166,19 @@ li {
     z-index: 4;
 }
 
+li a {
+	color: black;
+	text-decoration: none;
+}
+
 /* Change background on mouse-over */
 #nav-bar .nav-link:hover {
     background: black;
+    color: white;
+}
+
+li a:hover {
+	background: black;
     color: white;
 }
 
