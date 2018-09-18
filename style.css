@@ -8,7 +8,7 @@ body {
 .title {
 	z-index: 3;
 }
-#stag-icon {
+#header-img {
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
@@ -210,44 +210,4 @@ input[type=submit]:hover {
 	background: green;
 	
 }
-
-/*@media screen and (max-width: 800px) {
-#what-we-do {
-	
-    flex-direction: column;*/
-	/*#what-we-do {
-	display: flex;
-	flex-direction: row;
-
-}
-}*/
-
-/*@media screen and (max-width: 800px)
-
-#what-we-do .container .grid-2 #basic-price, #what-we-do #vid 
-
-	 {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}*/
-
-/*@media screen and (max-width: 800px) {}
-#pricing {
-	
-    flex-direction: column;*/
-    /*#pricing {
- 	display: flex;
- 	flex-direction: row;
- }
-}
- }*/
-/*@media screen and (max-width: 800px) 
-#pricing .container .grid-3 #bed, #pricing .container .grid-3 #coffee, #pricing .container .grid-3 #train {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}*/
 
