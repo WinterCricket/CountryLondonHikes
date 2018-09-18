@@ -111,7 +111,7 @@ body {
 
 #basic-price .container {
 	display: flex;
-	
+
 	
 }
 }
@@ -151,9 +151,9 @@ body {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    z-index: 2;
+    z-index: 3;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 #nav-bar .nav-link {
