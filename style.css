@@ -3,6 +3,7 @@ body {
 	padding: 0px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 li {
 	list-style: none;
 }
@@ -132,7 +133,7 @@ a {
 }
 
 }
-
+/*end of media query*/
 #nav-bar {
 	display: flex;
 
