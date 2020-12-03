@@ -11,7 +11,7 @@
 				<h1 id="title"> Country London Walks</h1>
 				<p id="intro">Visit London the Old Way</p>
 			</div>
-			<form action="https://www.freecodecamp.com/email-submit" id="form" method="get">
+			<form action="hodhodhod2003@gmail.com" id="form" method="get">
 				<div >
 					<label class="white">For Our Newsletter</label>
 				</div>
@@ -50,21 +50,21 @@
 	<section  id="pricing" class="pricing">
 		<div class="container">
 
-			<div id="bed">
+			<div  >
 				<i class="fas fa-bed fa-3x"></i>
 				<h3>A Bed Near the Trail</h3>
 				<p>Wake in comfort on the trail, your adventure already begun!</p>
 				<h2>$60</h2>
 				<button class="btn">BUY</button>
 			</div>
-			<div id="coffee">
+			<div >
 				<i class="fas fa-coffee fa-3x" ></i>
 				<h3>Coffee and Food </h3>
 				<p>During the day long walk, we stop for three meals. Save a seat!</p>
 				<h2>$24</h2>
 				<button class="btn">BUY</button>
 			</div>
-			<div id="train">
+			<div >
 				<i class="fas fa-train fa-3x"></i>
 				<h3>Return Train at Completion</h3>
 				<p>At the end, Sir John will walk you to the train station</p>
@@ -77,39 +77,8 @@
 
 	<!--  walks -->
 
-	<div id="footer" >
-					<div class="column three">
-						<strong>Phone</strong>
-						903-935-2980
-					</div><!--column-->
-					<div class="column three">
-						<strong>Location</strong>
-						Franklin's 
-						344 East Rusk Street
-						Marshall, TX 75672
-					</div><!--column-->
-					<div class="column three last">
-						<strong>Hours</strong>
+	<?php 
 
-						<em>Monday - Wednesday</em><br>
-							10:00am - 4:00pm<br><br>
+		include("includes/footer.php");
 
-						<em>Thursday - Friday</em><br>
-						 	10:00am - 2:00pm<br><br>
-
-						<em>Saturday - Sunday</em><br>
-						Closed<br><br>
-
-						<?php include('includes/office_hours.php'); ?>
-
-					</div><!--column-->
-					
-				</div> <!--footer-->
-				<small>&copy; <?php echo date('Y'); ?>  <?php echo $companyName; ?></small>
-			</div> <!--content-->
-		</div> <!--wrapper-->
-
-
-	
-</body>
-</html>
+	 ?>

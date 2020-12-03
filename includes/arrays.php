@@ -30,29 +30,29 @@ $trailOptions = array(
 
 		"title"		=> "A Bed Near the Trail",
 		"price"		=> 60,
-		"blurb"		=> "Wake in comfort on the trail, your adventure already begun!",
-		"drink" 	=> "White Vodka"
+		"blurb"		=> "Wake in comfort on the trail, your adventure already begun!"
+		
 	),
 	"coffee_food" => array(
 
-		"title"		=> "Coffee &amp; Sandwich ",
+		"title"		=> "Coffee &amp; Sandwich on a Barge",
 		"price"		=> 22,
-		"blurb"		=> "During the day long walk, we stop for three meals. Save a seat!",
-		"drink" 	=> "Club Soda"
+		"blurb"		=> "During the day long walk, we stop for three meals. Save a seat!"
+		
 	),
 	"return_train" => array(
 
 		"title"		=> "Return Train at Completion<sup>&reg;</sup> ",
 		"price"		=> 18,
-		"blurb"		=> "At the end, Sir John will walk you to the train station",
-		"drink" 	=> "Pomegranite Water"
+		"blurb"		=> "At the end, Sir John will walk you to the train station"
+		
 	),
-	"ivory-salad" => array(
+	"ivory-tower" => array(
 
-		"title"		=> "Ivory Dikon Salad ",
+		"title"		=> "Ivory Tower ",
 		"price"		=> 21,
-		"blurb"		=> "It's spicey. It's mediterranean. It goes with green wine. Presto!",
-		"drink" 	=> "Retsina"
+		"blurb"		=> "It's spicey. It's mediterranean. It goes with green wine. Presto!"
+		
 	),
 );
 
