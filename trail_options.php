@@ -24,11 +24,11 @@ include('includes/header.php');
 
 		 ?>
 
-		 <div class="item" >
+		 <hr><div class="item" >
 				<!-- <i class="fas fa-bed fa-3x"></i> -->
 				<h3 ><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></a></h3>
 				<button class="btn">BUY</button>
-			</div>
+			</div><hr>
 
 		
 
