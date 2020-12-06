@@ -1,8 +1,10 @@
+
 <?php 
 
 	define("TITLE", "Home | Country London Hikes");
 	include('includes/header.php');
  ?>
+
 
 <section id="subscribe" class="content">
 			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="Country London Icon" id="header-image">
@@ -11,7 +13,7 @@
 				<h1 id="title"> Country London Walks</h1>
 				<p id="intro">Visit London the Old Way</p>
 			</div>
-			<form action="hodhodhod2003@gmail.com" id="form" method="get">
+			<!-- <form action="hodhodhod2003@gmail.com" id="form" method="get">
 				<div >
 					<label class="white">For Our Newsletter</label>
 				</div>
@@ -19,7 +21,7 @@
 					<input type="email" id="email" placeholder="Enter your email" name="email"><br>
 					<input type="submit" id="submit" value="Subscribe" name="submit">
 				</div>
-			</form>
+			</form> -->
 		</section>
 	</header>
 

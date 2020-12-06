@@ -15,7 +15,8 @@ include('includes/header.php');
 
 	<section id="pricing" class="pricing">
 
-	<ul class="container"> 
+	<div class="container item_container">
+		<!-- <div class="item_container"> -->
 
 		<?php 
 
@@ -23,11 +24,17 @@ include('includes/header.php');
 
 		 ?>
 
-		 <li><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></li><hr>
+		 <div class="item" >
+				<!-- <i class="fas fa-bed fa-3x"></i> -->
+				<h3 ><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></a></h3>
+				<button class="btn">BUY</button>
+			</div>
+
+		
 
 		<?php } ?>
-
-	</ul>
+		
+	</div>
 	</section>
 </div><!--menu-items-->
 <hr>

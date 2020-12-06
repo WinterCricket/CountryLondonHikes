@@ -7,6 +7,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/*add attribute salvage*/
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
 li {
@@ -228,4 +231,16 @@ input[type=submit]:hover {
 	background: green;
 	
 }
+#roomy {
+	display: flex;
+}
+.item_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px 0 15px;
+}
 
+.item {
+	height: 100px;
+	width: 100px;
+}
