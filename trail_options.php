@@ -23,13 +23,14 @@ include('includes/header.php');
 
 		 ?>
 
-		 <li><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></li>
+		 <li><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></li><hr>
 
 		<?php } ?>
 
 	</ul>
 	</section>
 </div><!--menu-items-->
+<hr>
 
 
 

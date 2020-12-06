@@ -90,7 +90,7 @@ include('includes/header.php');
 					<label for="email">Your email</label>
 					<input type="email" id="email" name="email">
 
-					<label for="message">your message</label>
+					<label for="message">Your message</label>
 					<textarea  id="message" name="message"></textarea>
 
 

@@ -28,14 +28,14 @@ $navItems = array(
 $trailOptions = array(
 	"bed_trail" => array(
 
-		"title"		=> "A Bed Near the Trail",
+		"title"		=> "A Bed Near the Trail ",
 		"price"		=> 60,
 		"blurb"		=> "Wake in comfort on the trail, your adventure already begun!"
 		
 	),
 	"coffee_food" => array(
 
-		"title"		=> "Coffee &amp; Sandwich on a Barge",
+		"title"		=> "Coffee &amp; Sandwich on a Barge ",
 		"price"		=> 22,
 		"blurb"		=> "During the day long walk, we stop for three meals. Save a seat!"
 		

@@ -73,6 +73,8 @@
 			</div>
 		</div>
 	</section>
+	<br>
+	<br><br><hr>
 
 
 	<!--  walks -->
