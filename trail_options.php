@@ -10,7 +10,7 @@ include('includes/header.php');
 <div id="trail_options">
 	<h1>Choose a Trail</h1>
 		<p>Each Country London trail as a storied history &mdash; John Rogers will guide you into a lost world, and then show you how it comes right up to the present.</p>
-		<p><em>Please click a menu to learn more!</em></p>
+		<p><em>Please click a trail to learn more!</em></p>
 	<hr>
 
 	<section id="pricing" class="pricing">
@@ -24,11 +24,11 @@ include('includes/header.php');
 
 		 ?>
 
-		 <hr><div class="item" >
+		<div class="member item">
 				<!-- <i class="fas fa-bed fa-3x"></i> -->
 				<h3 ><a href="hike.php?item=<?php echo $trail; ?>"><?php echo $item['title']; ?></a><sup>$</sup><?php echo $item['price']; ?></a></h3>
 				<button class="btn">BUY</button>
-			</div><hr>
+			</div>
 
 		
 

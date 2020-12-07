@@ -30,7 +30,7 @@ a {
 }
 .woods::after {
 	content:'';
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
 	background-image: url("https://images.unsplash.com/photo-1416244579084-cceb7ab682ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=626cc82ca95b363ea68782ac46594361&auto=format&fit=crop&w=1510&q=80");
 	background-size: cover;
@@ -55,7 +55,7 @@ a {
 	color: white;
 	transition: 1000ms;
 	font-size: 1.2rem;
-	margin-top: -40px;
+	margin-top: 40px;
 }
 
 .woods:hover .white{
@@ -118,6 +118,7 @@ a {
 	align-items: center;
 	text-align: center;
 	border-bottom: solid #000 1px;
+	display: flex;
 }
 
 
@@ -203,6 +204,8 @@ li a:hover {
     color: white;
 }
 
+
+
 input[type=submit]{
 	
     background-color: black;
@@ -241,6 +244,63 @@ input[type=submit]:hover {
 }
 
 .item {
-	height: 100px;
+	height: 95.42px;
+	width: 100px;
+}
+
+.member {
+	width: 203px;
+	float: left;
+	margin-right: 45px;
+}
+
+#contact {
+	width: 320px;
+	margin: 0 auto;
+}
+
+#contact-form label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+	border: solid 2px #353535;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 0 10px;
+	width: 300px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#contact-form textarea {
+	resize: vertical;
+	height: 120px;
+}
+
+#contact-form input[type="checkbox"] + label {
+	display: inline;
+	cursor: pointer;
+}
+
+input {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+.item_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px 0 15px;
+}
+
+.item {
+	height: 95.42px;
 	width: 100px;
 }

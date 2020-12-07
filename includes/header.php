@@ -17,7 +17,7 @@ include('includes/arrays.php');
 	<link rel="stylesheet" href="style.css">
 	<title>Country London Walks</title>
 </head>
-<body>
+<body >
 	<header id="header" class="woods">
 	
 		
@@ -42,3 +42,5 @@ include('includes/arrays.php');
 
 
 		</nav>
+
+		
