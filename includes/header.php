@@ -19,10 +19,12 @@ include('includes/arrays.php');
 </head>
 <body >
 <div >
-	<a href="/" title="Return Home" class="woods">
+	<div class="woods">
+	<a href="/" title="Leave Website" >
 			
 			<!-- <img src="img/banner.jpg" alt="looking up at trees banner" > -->
 		</a>
+		</div>
 	<header id="header" >
 	
 
