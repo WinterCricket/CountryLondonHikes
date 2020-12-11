@@ -18,20 +18,28 @@ include('includes/arrays.php');
 	<title>Country London Walks</title>
 </head>
 <body >
-	<header id="header" class="woods">
+<div >
+	<a href="/" title="Return Home" class="woods">
+			
+			<!-- <img src="img/banner.jpg" alt="looking up at trees banner" > -->
+		</a>
+	<header id="header" >
 	
-		
+
 		<nav id="nav-bar">
-			<img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img">
+
+			
 			<!-- <ul> -->
 				
 				<div id="nav">
 				
-					<?php 
+			<?php 
 
 						include('includes/nav.php');
 
 					 ?>
+					
+					 <img src="https://cdn2.iconfinder.com/data/icons/harry-potter-solid-collection/60/04_-_Harry_Potter_-_Solid_-_Patronas_Stag-512.png" alt="stag head icon" id="header-img">
 				
 			</div> <!--nav -->
 				

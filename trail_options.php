@@ -36,7 +36,7 @@ include('includes/header.php');
 		
 	</div>
 	</section>
-</div><!--menu-items-->
+</div><br><br><!--menu-items-->
 <hr>
 
 
