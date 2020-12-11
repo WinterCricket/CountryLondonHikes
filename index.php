@@ -37,11 +37,12 @@
 					<i class="fas fa-blind fa-10x"></i>
 					<h3>Basic Price: $120 US</h3>
 					<p>This is for the walk with the legend Sir John Rogers.
-					Rates for additional amenities can be purchased below.</p>
+					Rates for additional amenities can be purchased at Trail Options.</p>
 				</div>
 				<div >
 					<h3>What We Do</h3>
 					<iframe width="420" height="300" src="https://www.youtube.com/embed/thpuK399YiY" id="video">
+						<!-- alternate video https://www.youtube.com/watch?v=cf-CD-QHB7g -->
 
 					</iframe>
 				</div>
@@ -49,7 +50,7 @@
 		</div>
 	</section>
 	<!-- services -->
-	<section  id="pricing" class="pricing">
+	<!-- <section  id="pricing" class="pricing">
 		<div class="container">
 
 			<div  >
@@ -74,7 +75,7 @@
 				<button class="btn">BUY</button>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<br>
 	<br><br><hr>
 
