@@ -18,13 +18,15 @@ include('includes/arrays.php');
 	<title>Country London Walks</title>
 </head>
 <body >
-<div >
-	<div class="woods">
-	<a href="/" title="Leave Website" >
+<div  >
+	<div >
+
+		<img  src="img/banner.jpg" alt="trees look down on you">
+	<!-- <a href="/" title="Trees are watching" >
 			
-			<!-- <img src="img/banner.jpg" alt="looking up at trees banner" > -->
-		</a>
-		</div>
+			<img src="img/banner.jpg" alt="looking up at trees banner" >
+		</a> -->
+	</div>
 	<header id="header" >
 	
 
